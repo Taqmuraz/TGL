@@ -28,5 +28,15 @@ namespace LocomotionSystem
 				return AvatarIKGoal.LeftHand;
 			}
 		}
+		public static HumanBodyBones ToBone (this AvatarIKGoal origin)
+		{
+			switch (origin) {
+			case AvatarIKGoal.LeftFoot:return HumanBodyBones.LeftFoot;
+			case AvatarIKGoal.RightFoot:return HumanBodyBones.RightFoot;
+			case AvatarIKGoal.LeftHand:return HumanBodyBones.LeftHand;
+			case AvatarIKGoal.RightHand:return HumanBodyBones.RightHand;
+			}
+			return HumanBodyBones.Chest;
+		}
 	}
 }

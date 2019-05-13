@@ -40,17 +40,21 @@ namespace LocomotionSystem
 		public virtual void AnimatorParametersUpdate ()
 		{
 		}
-		protected void SetIKWeights (float weight)
+		protected void SetIKWeights (float weight, bool hands = false)
 		{
 			animator.SetIKPositionWeight (AvatarIKGoal.LeftFoot, weight);
 			animator.SetIKPositionWeight (AvatarIKGoal.RightFoot, weight);
-			animator.SetIKPositionWeight (AvatarIKGoal.LeftHand, weight);
-			animator.SetIKPositionWeight (AvatarIKGoal.RightHand, weight);
 
 			animator.SetIKRotationWeight (AvatarIKGoal.LeftFoot, weight);
 			animator.SetIKRotationWeight (AvatarIKGoal.RightFoot, weight);
-			animator.SetIKRotationWeight (AvatarIKGoal.LeftHand, weight);
-			animator.SetIKRotationWeight (AvatarIKGoal.RightHand, weight);
+
+			if (hands) {
+				animator.SetIKRotationWeight (AvatarIKGoal.LeftHand, weight);
+				animator.SetIKRotationWeight (AvatarIKGoal.RightHand, weight);
+
+				animator.SetIKPositionWeight (AvatarIKGoal.LeftHand, weight);
+				animator.SetIKPositionWeight (AvatarIKGoal.RightHand, weight);
+			}
 		}
 	}
 }

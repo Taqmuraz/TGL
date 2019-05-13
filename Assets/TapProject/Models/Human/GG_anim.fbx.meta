@@ -1,0 +1,1034 @@
+fileFormatVersion: 2
+guid: 55519ddb0ce7bf34b9693210244434cf
+timeCreated: 1555859872
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bone
+    100002: Bone.001
+    100004: Bone.001_end
+    100006: Bone.002
+    100008: Bone.002_end
+    100010: Bone_end
+    100012: GG
+    100014: //RootNode
+    100016: GG_equip
+    100018: golova
+    100020: IK.GG
+    100022: IK.l
+    100024: IK.l_end
+    100026: IK.noga.r
+    100028: IK.noga.r_end
+    100030: IK.ruka.l
+    100032: IK.ruka.l_end
+    100034: IK.ruka.r
+    100036: IK.ruka.r_end
+    100038: jivot
+    100040: kist.l
+    100042: kist.r
+    100044: noga.l
+    100046: noga.l2
+    100048: noga.r
+    100050: noga.r2
+    100052: palec.l
+    100054: palec.l10
+    100056: palec.l10_end
+    100058: palec.l2
+    100060: palec.l2_end
+    100062: palec.l3
+    100064: palec.l4
+    100066: palec.l4_end
+    100068: palec.l5
+    100070: palec.l6
+    100072: palec.l6_end
+    100074: palec.l7
+    100076: palec.l8
+    100078: palec.l8_end
+    100080: palec.l9
+    100082: palec.r
+    100084: palec.r10
+    100086: palec.r10_end
+    100088: palec.r2
+    100090: palec.r2_end
+    100092: palec.r3
+    100094: palec.r4
+    100096: palec.r4_end
+    100098: palec.r5
+    100100: palec.r6
+    100102: palec.r6_end
+    100104: palec.r7
+    100106: palec.r8
+    100108: palec.r8_end
+    100110: palec.r9
+    100112: plecho.l
+    100114: plecho.r
+    100116: ruka.l
+    100118: ruka.l2
+    100120: ruka.r
+    100122: ruka.r2
+    100124: sheya
+    100126: sheya.001
+    100128: sheya.001_end
+    100130: Skelet.GG_1
+    100132: stopa.l
+    100134: stopa.l_end
+    100136: stopa.r
+    100138: stopa.r_end
+    100140: telo
+    100142: Brov.Left
+    100144: Brov.Left_end
+    100146: Brov.Right
+    100148: Brov.Right_end
+    100150: guba
+    100152: guba_end
+    100154: Left.Eye
+    100156: Left.Eye_end
+    100158: podborodok
+    100160: podborodok_end
+    100162: Right.Eye
+    100164: Right.Eye_end
+    400000: Bone
+    400002: Bone.001
+    400004: Bone.001_end
+    400006: Bone.002
+    400008: Bone.002_end
+    400010: Bone_end
+    400012: GG
+    400014: //RootNode
+    400016: GG_equip
+    400018: golova
+    400020: IK.GG
+    400022: IK.l
+    400024: IK.l_end
+    400026: IK.noga.r
+    400028: IK.noga.r_end
+    400030: IK.ruka.l
+    400032: IK.ruka.l_end
+    400034: IK.ruka.r
+    400036: IK.ruka.r_end
+    400038: jivot
+    400040: kist.l
+    400042: kist.r
+    400044: noga.l
+    400046: noga.l2
+    400048: noga.r
+    400050: noga.r2
+    400052: palec.l
+    400054: palec.l10
+    400056: palec.l10_end
+    400058: palec.l2
+    400060: palec.l2_end
+    400062: palec.l3
+    400064: palec.l4
+    400066: palec.l4_end
+    400068: palec.l5
+    400070: palec.l6
+    400072: palec.l6_end
+    400074: palec.l7
+    400076: palec.l8
+    400078: palec.l8_end
+    400080: palec.l9
+    400082: palec.r
+    400084: palec.r10
+    400086: palec.r10_end
+    400088: palec.r2
+    400090: palec.r2_end
+    400092: palec.r3
+    400094: palec.r4
+    400096: palec.r4_end
+    400098: palec.r5
+    400100: palec.r6
+    400102: palec.r6_end
+    400104: palec.r7
+    400106: palec.r8
+    400108: palec.r8_end
+    400110: palec.r9
+    400112: plecho.l
+    400114: plecho.r
+    400116: ruka.l
+    400118: ruka.l2
+    400120: ruka.r
+    400122: ruka.r2
+    400124: sheya
+    400126: sheya.001
+    400128: sheya.001_end
+    400130: Skelet.GG_1
+    400132: stopa.l
+    400134: stopa.l_end
+    400136: stopa.r
+    400138: stopa.r_end
+    400140: telo
+    400142: Brov.Left
+    400144: Brov.Left_end
+    400146: Brov.Right
+    400148: Brov.Right_end
+    400150: guba
+    400152: guba_end
+    400154: Left.Eye
+    400156: Left.Eye_end
+    400158: podborodok
+    400160: podborodok_end
+    400162: Right.Eye
+    400164: Right.Eye_end
+    4300000: GG
+    4300002: GG_equip
+    7400000: Skelet.GG_1|GG_Death
+    7400002: Skelet.GG_1|GG_Getting_Damage
+    7400004: Skelet.GG_1|GG_Inaction
+    7400006: Skelet.GG_1|GG_Run
+    7400008: Skelet.GG_1|GG_Run(-45)
+    7400010: Skelet.GG_1|GG_Run(-65)
+    7400012: Skelet.GG_1|GG_Run(45)
+    7400014: Skelet.GG_1|GG_Run(65)
+    7400016: Skelet.GG_1|GG_Walk
+    7400018: Skelet.GG_1|GG_Walk(-45)
+    7400020: Skelet.GG_1|GG_Walk(45)
+    7400022: Skelet.GG_1|GG_Jump
+    7400024: "Skelet.GG_1|\u0411\u0435\u0437 \u0438\u043C\u0435\u043D\u0438"
+    7400026: Skelet.GG_1|GG_JumpUp
+    7400028: Skelet.GG_1|GG_JumpDown
+    9500000: //RootNode
+    13700000: GG
+    13700002: GG_equip
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'Skelet.GG_1|GG_Death' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'telo' has translation animation that will
+      be discarded.\n\t'podborodok' has translation animation that will be discarded.\n\t'noga.r'
+      has translation animation that will be discarded.\n\t'stopa.r' has translation
+      animation that will be discarded.\n\t'noga.l' has translation animation that
+      will be discarded.\n\nClip 'Skelet.GG_1|GG_GetUp' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'noga.r' has translation animation that will
+      be discarded.\n\t'stopa.r' has translation animation that will be discarded.\n\t'noga.l'
+      has translation animation that will be discarded.\n\nClip 'Skelet.GG_1|GG_HammerBlow'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'noga.r' has translation
+      animation that will be discarded.\n\nClip 'Skelet.GG_1|GG_Inaction' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'podborodok' has translation
+      animation that will be discarded.\n\t'noga.r' has translation animation that
+      will be discarded.\n\nClip 'Skelet.GG_1|GG_Rotate(-180)' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation DOF
+      on avatar to improve retargeting quality.\n\t'noga.r' has translation animation
+      that will be discarded.\n\t'noga.l' has translation animation that will be discarded.\n\nClip
+      'Skelet.GG_1|GG_Rotate(-90)' has import animation warnings that might lower
+      retargeting quality:\nNote: Activate translation DOF on avatar to improve retargeting
+      quality.\n\t'noga.r' has translation animation that will be discarded.\n\t'noga.l'
+      has translation animation that will be discarded.\n\nClip 'Skelet.GG_1|GG_Rotate(180)'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'telo' has translation
+      animation that will be discarded.\n\t'noga.r' has translation animation that
+      will be discarded.\n\nClip 'Skelet.GG_1|GG_Rotate(90)' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation DOF
+      on avatar to improve retargeting quality.\n\t'noga.l' has translation animation
+      that will be discarded.\n\nClip 'Skelet.GG_1|GG_Run' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'noga.r' has translation animation that will
+      be discarded.\n\t'noga.l' has translation animation that will be discarded.\n\nClip
+      'Skelet.GG_1|GG_Run(-45)' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'noga.r'
+      has translation animation that will be discarded.\n\t'noga.l' has translation
+      animation that will be discarded.\n\nClip 'Skelet.GG_1|GG_Run(-65)' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'noga.r' has translation animation
+      that will be discarded.\n\t'noga.l' has translation animation that will be discarded.\n\nClip
+      'Skelet.GG_1|GG_Run(45)' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'noga.r'
+      has translation animation that will be discarded.\n\t'noga.l' has translation
+      animation that will be discarded.\n\nClip 'Skelet.GG_1|GG_SatDown' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'noga.r' has translation animation
+      that will be discarded.\n\t'stopa.r' has translation animation that will be
+      discarded.\n\t'noga.l' has translation animation that will be discarded.\n\nClip
+      'Skelet.GG_1|GG_Walk' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'palec.r9'
+      has translation animation that will be discarded.\n\t'palec.l9' has translation
+      animation that will be discarded.\n\t'palec.l7' has translation animation that
+      will be discarded.\n\t'palec.l5' has translation animation that will be discarded.\n\t'palec.l3'
+      has translation animation that will be discarded.\n\t'noga.r' has translation
+      animation that will be discarded.\n\nClip 'Skelet.GG_1|GG_Walk(45)' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'palec.r9' has translation
+      animation that will be discarded.\n\t'palec.l9' has translation animation that
+      will be discarded.\n\t'palec.l7' has translation animation that will be discarded.\n\t'palec.l5'
+      has translation animation that will be discarded.\n\t'palec.l3' has translation
+      animation that will be discarded.\n\nClip 'Skelet.GG_1|GG_Jump' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation DOF
+      on avatar to improve retargeting quality.\n\t'podborodok' has translation animation
+      that will be discarded.\n\t'Brov.Left' has translation animation that will be
+      discarded.\n\t'Brov.Right' has translation animation that will be discarded.\n\t'palec.r7'
+      has translation animation that will be discarded.\n\t'palec.r5' has translation
+      animation that will be discarded.\n\t'palec.r3' has translation animation that
+      will be discarded.\n\t'palec.l7' has translation animation that will be discarded.\n\t'palec.l5'
+      has translation animation that will be discarded.\n\t'palec.l3' has translation
+      animation that will be discarded.\n\t'stopa.l' has translation animation that
+      will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 2
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: jivot
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: noga.l
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: noga.r
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: noga.l2
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: noga.r2
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: stopa.l
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: stopa.r
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: telo
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: sheya
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: golova
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: plecho.l
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: plecho.r
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ruka.l
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ruka.r
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ruka.l2
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ruka.r2
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: kist.l
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: kist.r
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Brov.Left
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Brov.Right
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: palec.r
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: palec.r2
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: palec.r3
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: palec.r4
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: palec.r5
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: palec.r6
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: palec.r7
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: palec.r8
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: palec.r9
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: palec.r10
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: palec.l
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: palec.l2
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: palec.l3
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: palec.l4
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: palec.l5
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: palec.l6
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: palec.l7
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: palec.l8
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: palec.l9
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: palec.l10
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: podborodok
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: GG_anim(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GG
+      parentName: GG_anim(Clone)
+      position: {x: -0, y: 2.4139676, z: 0.00059991167}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 15.000001, y: 15.000001, z: 15.000001}
+    - name: Skelet.GG_1
+      parentName: GG_anim(Clone)
+      position: {x: 0.022767263, y: 1.4980992, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 15.000001, y: 15.000001, z: 15.000001}
+    - name: IK.GG
+      parentName: Skelet.GG_1
+      position: {x: 0.02361135, y: -0.0016773754, z: 0.0064085387}
+      rotation: {x: 0.48755848, y: 0.5121396, z: -0.51213866, w: 0.48755905}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: IK.l
+      parentName: IK.GG
+      position: {x: 0.100839116, y: -0.018735746, z: -0.014914117}
+      rotation: {x: -0.023882989, y: -0.7104961, z: -0.09490722, w: 0.6968626}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.9999997}
+    - name: IK.l_end
+      parentName: IK.l
+      position: {x: -0, y: 0.016211666, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IK.noga.r
+      parentName: IK.GG
+      position: {x: 0.10124281, y: -0.017751075, z: 0.009181968}
+      rotation: {x: -0.12715323, y: -0.7264324, z: -0.13755241, w: 0.6612167}
+      scale: {x: 0.99999994, y: 0.99999934, z: 0.99999994}
+    - name: IK.noga.r_end
+      parentName: IK.noga.r
+      position: {x: -0, y: 0.016211666, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IK.ruka.l
+      parentName: IK.GG
+      position: {x: 0.016500676, y: -0.024525562, z: -0.024947984}
+      rotation: {x: -0.3152717, y: 0.27686587, z: 0.4887584, w: 0.76489496}
+      scale: {x: 0.9999999, y: 0.9999998, z: 1}
+    - name: IK.ruka.l_end
+      parentName: IK.ruka.l
+      position: {x: -0, y: 0.02, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IK.ruka.r
+      parentName: IK.GG
+      position: {x: 0.016487837, y: -0.021415057, z: 0.022755932}
+      rotation: {x: 0.10795706, y: -0.09536422, z: 0.4221055, w: 0.89502954}
+      scale: {x: 0.99999964, y: 1, z: 0.9999995}
+    - name: IK.ruka.r_end
+      parentName: IK.ruka.r
+      position: {x: -0, y: 0.02, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jivot
+      parentName: IK.GG
+      position: {x: 0.021298256, y: -0.027420886, z: -0.0012935644}
+      rotation: {x: 0.043059796, y: -0.045281414, z: 0.7072146, w: 0.7042322}
+      scale: {x: 1, y: 0.99999994, z: 1.0000001}
+    - name: noga.l
+      parentName: jivot
+      position: {x: -0.0007144831, y: -0.00008128451, z: -0.008772613}
+      rotation: {x: 0.7248419, y: -0.002959892, z: 0.68745166, w: -0.044784985}
+      scale: {x: 0.99999934, y: 0.99999946, z: 0.99996054}
+    - name: noga.l2
+      parentName: noga.l
+      position: {x: -5.7742e-10, y: 0.03754503, z: 0.0000000012665987}
+      rotation: {x: 0.015571612, y: 0.79918844, z: 0.028479306, w: 0.6002036}
+      scale: {x: 1.0000015, y: 1.0000051, z: 0.9999992}
+    - name: stopa.l
+      parentName: noga.l2
+      position: {x: 7.310882e-10, y: 0.042506438, z: 6.519258e-10}
+      rotation: {x: 0.5425878, y: 0.48214677, z: -0.3429163, w: 0.5962729}
+      scale: {x: 0.9999999, y: 0.9999999, z: 1.0000001}
+    - name: stopa.l_end
+      parentName: stopa.l
+      position: {x: -0, y: 0.016621776, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: noga.r
+      parentName: jivot
+      position: {x: -0.00023946598, y: -0.0007518937, z: 0.008260794}
+      rotation: {x: 0.7147728, y: 0.041762657, z: 0.69756126, w: -0.027642265}
+      scale: {x: 1.0000001, y: 0.9999991, z: 0.99995816}
+    - name: noga.r2
+      parentName: noga.r
+      position: {x: -7.4505804e-11, y: 0.03754503, z: -1.4901161e-10}
+      rotation: {x: 0.027303573, y: 0.4513558, z: 0.023502385, w: 0.8916166}
+      scale: {x: 1.000007, y: 1.0000024, z: 1.0000048}
+    - name: stopa.r
+      parentName: noga.r2
+      position: {x: -2.9802322e-10, y: 0.042506427, z: 0.0000000014528632}
+      rotation: {x: 0.35578603, y: 0.6373079, z: -0.55794746, w: 0.3949046}
+      scale: {x: 1, y: 1.0000001, z: 0.99999976}
+    - name: stopa.r_end
+      parentName: stopa.r
+      position: {x: -0, y: 0.016621776, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: telo
+      parentName: jivot
+      position: {x: 7.21775e-11, y: 0.02231888, z: -1.8626451e-11}
+      rotation: {x: 0.04302206, y: -0.6835391, z: 0.009034932, w: 0.7285889}
+      scale: {x: 0.99999994, y: 0.9999997, z: 0.99999994}
+    - name: plecho.l
+      parentName: telo
+      position: {x: -7.4505804e-11, y: 0.032681353, z: -4.842877e-10}
+      rotation: {x: 0.6085093, y: -0.36350393, z: 0.5880805, w: 0.3895416}
+      scale: {x: 0.9999996, y: 0.9999995, z: 1}
+    - name: ruka.l
+      parentName: plecho.l
+      position: {x: 4.842877e-10, y: 0.0223946, z: -0.0000000030570664}
+      rotation: {x: 0.45595607, y: -0.30362418, z: -0.018202174, w: 0.836412}
+      scale: {x: 0.99999976, y: 0.99999994, z: 1}
+    - name: ruka.l2
+      parentName: ruka.l
+      position: {x: 0.0000000025331974, y: 0.019694299, z: 0.000000001490116}
+      rotation: {x: 0.03717124, y: 0.14677411, z: -0.2189534, w: 0.96391654}
+      scale: {x: 1.0000001, y: 1, z: 0.99999994}
+    - name: kist.l
+      parentName: ruka.l2
+      position: {x: 0.00000046186148, y: 0.023014281, z: 0.0000023090465}
+      rotation: {x: -0.035625897, y: 0.9869636, z: -0.14060257, w: -0.06974598}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1}
+    - name: palec.l
+      parentName: kist.l
+      position: {x: -0.0038777415, y: 0.004865522, z: -0.00021215357}
+      rotation: {x: -0.44332716, y: 0.7470793, z: -0.2128948, w: 0.44722405}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: palec.l2
+      parentName: palec.l
+      position: {x: -7.45058e-10, y: 0.0035454154, z: -0.000000001490116}
+      rotation: {x: 0.35149983, y: -0.72914547, z: -0.306772, w: 0.5006852}
+      scale: {x: 0.99999994, y: 0.9999999, z: 1.0000001}
+    - name: palec.l2_end
+      parentName: palec.l2
+      position: {x: -0, y: 0.0020709506, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: palec.l3
+      parentName: kist.l
+      position: {x: -0.0032582677, y: 0.008188018, z: -0.00031876902}
+      rotation: {x: -0.2492082, y: 0.0033224234, z: -0.13228084, w: 0.9593675}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.99999964}
+    - name: palec.l4
+      parentName: palec.l3
+      position: {x: -2.9802322e-10, y: 0.004946183, z: 9.872019e-10}
+      rotation: {x: -0.056101263, y: 0.8241318, z: -0.55515164, w: 0.0972937}
+      scale: {x: 0.99999994, y: 0.9999995, z: 0.99999964}
+    - name: palec.l4_end
+      parentName: palec.l4
+      position: {x: -0, y: 0.0032552376, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: palec.l5
+      parentName: kist.l
+      position: {x: -0.00041099562, y: 0.007304643, z: -0.0001519024}
+      rotation: {x: -0.18484168, y: -0.1613242, z: -0.04156244, w: 0.9685456}
+      scale: {x: 0.9999999, y: 0.99999946, z: 0.99999976}
+    - name: palec.l6
+      parentName: palec.l5
+      position: {x: -8.1956386e-10, y: 0.005177221, z: -0.0000000017136335}
+      rotation: {x: -0.27643493, y: 0.7757228, z: -0.5661575, w: -0.03610495}
+      scale: {x: 0.9999999, y: 0.9999995, z: 0.99999934}
+    - name: palec.l6_end
+      parentName: palec.l6
+      position: {x: -0, y: 0.00359859, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: palec.l7
+      parentName: kist.l
+      position: {x: 0.0017845839, y: 0.007174978, z: -0.0004018756}
+      rotation: {x: -0.16933407, y: -0.2253118, z: -0.05773476, w: 0.95771986}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1}
+    - name: palec.l8
+      parentName: palec.l7
+      position: {x: 0.0000000012200325, y: 0.0051097707, z: 0.000000004088506}
+      rotation: {x: 0.014440309, y: -0.5503501, z: 0.6635122, w: 0.5066141}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: palec.l8_end
+      parentName: palec.l8
+      position: {x: -0, y: 0.0032567286, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: palec.l9
+      parentName: kist.l
+      position: {x: 0.003716874, y: 0.0071087317, z: -0.0007192764}
+      rotation: {x: -0.15712745, y: 0.067935124, z: -0.11270408, w: 0.97877145}
+      scale: {x: 0.99999994, y: 0.9999996, z: 0.9999998}
+    - name: palec.l10
+      parentName: palec.l9
+      position: {x: -0, y: 0.003529679, z: -5.0291415e-10}
+      rotation: {x: -0.15863918, y: 0.8424882, z: -0.51199245, w: 0.053953387}
+      scale: {x: 0.99999964, y: 1.0000001, z: 1}
+    - name: palec.l10_end
+      parentName: palec.l10
+      position: {x: -0, y: 0.0025515913, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: plecho.r
+      parentName: telo
+      position: {x: -7.4505804e-11, y: 0.032681353, z: -4.842877e-10}
+      rotation: {x: 0.59539056, y: 0.33660173, z: 0.56553566, w: -0.46084586}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: ruka.r
+      parentName: plecho.r
+      position: {x: 1.4901161e-10, y: 0.022394594, z: 0.0000000010803342}
+      rotation: {x: -0.4936153, y: 0.1026039, z: -0.008394892, w: 0.8635658}
+      scale: {x: 0.9999996, y: 0.9999999, z: 0.99999964}
+    - name: ruka.r2
+      parentName: ruka.r
+      position: {x: 0.000000001490116, y: 0.019694295, z: 0.000000001117587}
+      rotation: {x: -0.046276234, y: 0.013754919, z: -0.16201903, w: 0.985606}
+      scale: {x: 0.99999976, y: 1.0000001, z: 1.0000001}
+    - name: kist.r
+      parentName: ruka.r2
+      position: {x: -5.2154064e-10, y: 0.02305634, z: 5.296897e-10}
+      rotation: {x: 0.044139296, y: -0.1082855, z: 0.046214696, w: 0.9920636}
+      scale: {x: 1, y: 0.9999997, z: 0.99999976}
+    - name: palec.r
+      parentName: kist.r
+      position: {x: 0.00387774, y: 0.0048655206, z: -0.00021215275}
+      rotation: {x: 0.2405446, y: 0.9503208, z: -0.18303166, w: 0.0743514}
+      scale: {x: 0.99999994, y: 0.99999976, z: 0.9999998}
+    - name: palec.r2
+      parentName: palec.r
+      position: {x: 5.9604643e-10, y: 0.0035454184, z: 0.0000000010430813}
+      rotation: {x: 0.3712885, y: 0.887342, z: -0.2281088, w: -0.1507828}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
+    - name: palec.r2_end
+      parentName: palec.r2
+      position: {x: -0, y: 0.0020709543, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: palec.r3
+      parentName: kist.r
+      position: {x: 0.0030935153, y: 0.008576008, z: 0.0013518697}
+      rotation: {x: 0.053495966, y: 0.9704475, z: -0.2034022, w: 0.11831101}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: palec.r4
+      parentName: palec.r3
+      position: {x: -2.9802322e-10, y: 0.004946188, z: 2.6077032e-10}
+      rotation: {x: -0.3296852, y: 0.7570304, z: 0.49031746, w: -0.2789289}
+      scale: {x: 1.0000002, y: 1.0000007, z: 1.0000005}
+    - name: palec.r4_end
+      parentName: palec.r4
+      position: {x: -0, y: 0.0032552327, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: palec.r5
+      parentName: kist.r
+      position: {x: 0.0008008532, y: 0.008744612, z: 0.0008099095}
+      rotation: {x: 0.029775165, y: 0.9689606, z: -0.21766512, w: 0.113361105}
+      scale: {x: 0.9999999, y: 1.0000001, z: 1}
+    - name: palec.r6
+      parentName: palec.r5
+      position: {x: 1.3969838e-10, y: 0.0051772273, z: -3.7252902e-11}
+      rotation: {x: -0.3674959, y: 0.7630366, z: 0.48616248, w: -0.21533225}
+      scale: {x: 0.9999998, y: 1, z: 1}
+    - name: palec.r6_end
+      parentName: palec.r6
+      position: {x: -0, y: 0.0035985853, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: palec.r7
+      parentName: kist.r
+      position: {x: -0.0013279706, y: 0.008758368, z: 0.00016339257}
+      rotation: {x: 0.02743013, y: 0.97423494, z: -0.1943667, w: 0.11106553}
+      scale: {x: 0.9999998, y: 1.0000004, z: 0.99999994}
+    - name: palec.r8
+      parentName: palec.r7
+      position: {x: -2.7939677e-11, y: 0.00510977, z: 0.0000000012665987}
+      rotation: {x: -0.28435367, y: 0.7135901, z: 0.6124072, w: -0.1867878}
+      scale: {x: 0.9999997, y: 1, z: 0.99999976}
+    - name: palec.r8_end
+      parentName: palec.r8
+      position: {x: -0, y: 0.0032567238, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: palec.r9
+      parentName: kist.r
+      position: {x: -0.0031834429, y: 0.008703495, z: -0.00049159885}
+      rotation: {x: 0.019808734, y: 0.969113, z: -0.21962726, w: 0.11041499}
+      scale: {x: 1.0000001, y: 0.9999999, z: 0.9999998}
+    - name: palec.r10
+      parentName: palec.r9
+      position: {x: -3.1664968e-10, y: 0.0035296737, z: 0.0000000035017729}
+      rotation: {x: -0.23282577, y: 0.74127996, z: 0.6000624, w: -0.19031905}
+      scale: {x: 1.0000001, y: 1.0000008, z: 1.000001}
+    - name: palec.r10_end
+      parentName: palec.r10
+      position: {x: -0, y: 0.0025515961, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sheya
+      parentName: telo
+      position: {x: -7.4505804e-11, y: 0.032681353, z: -4.842877e-10}
+      rotation: {x: -0.017124927, y: 0.98609084, z: 0.08544918, w: 0.14152773}
+      scale: {x: 0.99999994, y: 1, z: 0.9999999}
+    - name: golova
+      parentName: sheya
+      position: {x: 4.4703483e-10, y: 0.0071798656, z: -3.7252902e-11}
+      rotation: {x: 0.026723886, y: 0.2103722, z: 0.009040548, w: 0.9772142}
+      scale: {x: 1.0000001, y: 0.99999976, z: 1.0000001}
+    - name: Brov.Left
+      parentName: golova
+      position: {x: -0.0016121545, y: 0.010458448, z: -0.0074248207}
+      rotation: {x: -0.5153695, y: 0.5236789, z: -0.4751433, w: -0.4841421}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Brov.Left_end
+      parentName: Brov.Left
+      position: {x: -0, y: 0.002696822, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Brov.Right
+      parentName: golova
+      position: {x: 0.0015989164, y: 0.010458446, z: -0.0074248146}
+      rotation: {x: -0.4751432, y: -0.4841425, z: -0.5153712, w: 0.52367693}
+      scale: {x: 0.9999999, y: 1, z: 0.99999994}
+    - name: Brov.Right_end
+      parentName: Brov.Right
+      position: {x: -0, y: 0.002696822, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: guba
+      parentName: golova
+      position: {x: 0.0010983824, y: 0.0018004286, z: -0.009941624}
+      rotation: {x: -0.5195528, y: 0.5195538, z: -0.4796507, w: -0.47964987}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: guba_end
+      parentName: guba
+      position: {x: -0, y: 0.002542781, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Left.Eye
+      parentName: golova
+      position: {x: -0.0036372442, y: 0.008779623, z: -0.0067330045}
+      rotation: {x: -0.6783269, y: -0.00000069974976, z: -0.00000073246775, w: 0.7347602}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Left.Eye_end
+      parentName: Left.Eye
+      position: {x: -0, y: 0.00161605, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: podborodok
+      parentName: golova
+      position: {x: -0.000025924257, y: -0.00091992057, z: -0.0023060779}
+      rotation: {x: -0.763282, y: -0.020976955, z: 0.038901497, w: 0.644552}
+      scale: {x: 0.99999964, y: 0.99999964, z: 1.0000001}
+    - name: podborodok_end
+      parentName: podborodok
+      position: {x: -0, y: 0.0064657824, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Right.Eye
+      parentName: golova
+      position: {x: 0.0034073675, y: 0.008754149, z: -0.006775971}
+      rotation: {x: -0.6893246, y: -0.0383381, z: 0.028028574, w: 0.7228943}
+      scale: {x: 0.99999964, y: 1, z: 0.99999994}
+    - name: Right.Eye_end
+      parentName: Right.Eye
+      position: {x: -0, y: 0.0016160487, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: a8d7cae3f50c0f242adb8f48a10910c5,
+    type: 3}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

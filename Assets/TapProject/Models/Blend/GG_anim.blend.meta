@@ -1,0 +1,198 @@
+fileFormatVersion: 2
+guid: bd7e1dee8d868bb4ebc5e78f68f10669
+timeCreated: 1556462861
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Brov_Left
+    100002: Brov_Right
+    100004: GG
+    100006: //RootNode
+    100008: golova
+    100010: guba
+    100012: IK_GG
+    100014: jivot
+    100016: kist_l
+    100018: kist_r
+    100020: Left_Eye
+    100022: noga_l
+    100024: noga_l2
+    100026: noga_r
+    100028: noga_r2
+    100030: palec_l
+    100032: palec_l10
+    100034: palec_l2
+    100036: palec_l3
+    100038: palec_l4
+    100040: palec_l5
+    100042: palec_l6
+    100044: palec_l7
+    100046: palec_l8
+    100048: palec_l9
+    100050: palec_r
+    100052: palec_r10
+    100054: palec_r2
+    100056: palec_r3
+    100058: palec_r4
+    100060: palec_r5
+    100062: palec_r6
+    100064: palec_r7
+    100066: palec_r8
+    100068: palec_r9
+    100070: plecho_l
+    100072: plecho_r
+    100074: podborodok
+    100076: Right_Eye
+    100078: ruka_l
+    100080: ruka_l2
+    100082: ruka_r
+    100084: ruka_r2
+    100086: sheya
+    100088: Skelet_GG_1
+    100090: stopa_l
+    100092: stopa_r
+    100094: telo
+    400000: Brov_Left
+    400002: Brov_Right
+    400004: GG
+    400006: //RootNode
+    400008: golova
+    400010: guba
+    400012: IK_GG
+    400014: jivot
+    400016: kist_l
+    400018: kist_r
+    400020: Left_Eye
+    400022: noga_l
+    400024: noga_l2
+    400026: noga_r
+    400028: noga_r2
+    400030: palec_l
+    400032: palec_l10
+    400034: palec_l2
+    400036: palec_l3
+    400038: palec_l4
+    400040: palec_l5
+    400042: palec_l6
+    400044: palec_l7
+    400046: palec_l8
+    400048: palec_l9
+    400050: palec_r
+    400052: palec_r10
+    400054: palec_r2
+    400056: palec_r3
+    400058: palec_r4
+    400060: palec_r5
+    400062: palec_r6
+    400064: palec_r7
+    400066: palec_r8
+    400068: palec_r9
+    400070: plecho_l
+    400072: plecho_r
+    400074: podborodok
+    400076: Right_Eye
+    400078: ruka_l
+    400080: ruka_l2
+    400082: ruka_r
+    400084: ruka_r2
+    400086: sheya
+    400088: Skelet_GG_1
+    400090: stopa_l
+    400092: stopa_r
+    400094: telo
+    4300000: GG
+    7400000: Default Take
+    7400002: GG_Death
+    7400004: GG_Getting_Damage
+    7400006: GG_GetUp
+    7400008: GG_HammerBlow
+    7400010: GG_Help
+    7400012: GG_Inaction
+    7400014: GG_Open
+    7400016: GG_Rotate_-180_
+    7400018: GG_Rotate_-90_
+    7400020: GG_Rotate_180_
+    7400022: GG_Rotate_90_
+    7400024: GG_Run
+    7400026: GG_Run_-45_
+    7400028: GG_Run_-65_
+    7400030: GG_Run_45_
+    7400032: GG_Run_65_
+    7400034: GG_SatDown
+    7400036: GG_Walk
+    7400038: GG_Walk_-45_
+    7400040: GG_Walk_45_
+    7400042: GG_Jump
+    9500000: //RootNode
+    13700000: GG
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

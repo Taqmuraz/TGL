@@ -12,6 +12,7 @@ public class TerrainGenerator : MonoBehaviour
 	[SerializeField] int resolution = 1000;
 	[SerializeField] int depthCalc = 10;
 	[SerializeField] int _textures = 2;
+	[SerializeField] int treesCount = 25000;
 	[SerializeField] TerrainData data;
 	[SerializeField] Vector3 size = new Vector3 (1000f, 600f, 1000f);
 
@@ -45,7 +46,7 @@ public class TerrainGenerator : MonoBehaviour
 
 		Generate (data, size, resolution, heights);
 
-		PlaceTrees (data, 25000);
+		PlaceTrees (data, treesCount);
 		coll.enabled = false;
 		coll.enabled = true;
 	}

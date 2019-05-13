@@ -1,0 +1,200 @@
+fileFormatVersion: 2
+guid: 86d35766b7fced743abf786438052515
+timeCreated: 1556613623
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Camera
+    100002: Camera_2
+    100004: //RootNode
+    400000: Camera
+    400002: Camera_2
+    400004: //RootNode
+    7400000: Camera_2|Camera_2Action
+    7400002: Camera_2|CameraAction
+    7400004: Camera_2|Window(1).001Action
+    7400006: Camera_2|Window(1).002Action
+    7400008: Camera_2|Window(1).003Action
+    7400010: Camera_2|Window(1).004Action
+    7400012: Camera_2|Window(1).005Action
+    7400014: Camera_2|Window(1).006Action
+    7400016: Camera_2|Window(1).007Action
+    7400018: Camera_2|Window(1).008Action
+    7400020: Camera_2|Window(1).009Action
+    7400022: Camera_2|Window(1).010Action
+    7400024: Camera_2|Window(1).011Action
+    7400026: Camera_2|Window(1).012Action
+    7400028: Camera_2|Window(1).013Action
+    7400030: Camera_2|Window(1).014Action
+    7400032: Camera_2|Window(1).015Action
+    7400034: Camera_2|Window(1).016Action
+    7400036: Camera_2|Window(2).001Action
+    7400038: Camera_2|Window(2).002Action
+    7400040: Camera_2|Window(2).003Action.001
+    7400042: Camera_2|Window(2).004Action
+    7400044: Camera_2|Window(2).005Action
+    7400046: Camera_2|Window(2).006Action
+    7400048: Camera_2|Window(2).007Action
+    7400050: Camera_2|Window(2).008Action
+    7400052: Camera_2|Window(2).009Action
+    7400054: Camera_2|Window(2).010Action
+    7400056: Camera_2|Window(2).011Action
+    7400058: Camera_2|Window(2).012Action
+    7400060: Camera_2|Window(2).013Action
+    7400062: Camera_2|Window(2).014Action
+    7400064: Camera_2|Window(2).015Action
+    7400066: Camera_2|Window(2).016Action
+    7400068: Camera_2|Window(2).017Action
+    7400070: Camera_2|Window(2).018Action
+    7400072: Camera_2|Window(2).019Action
+    7400074: Camera_2|Window(2).020Action
+    7400076: Camera_2|Window(2).021Action
+    7400078: Camera_2|Window(2).022Action
+    7400080: Camera_2|Window(2).023Action
+    7400082: Camera_2|Window(2).024Action
+    7400084: Camera_2|Window(2).025Action
+    7400086: Camera_2|Window(2).026Action
+    7400088: Camera_2|Window(3).001Action
+    7400090: Camera_2|Window(3).002Action
+    7400092: Camera_2|Window(3).003Action
+    7400094: Camera_2|Window(3).004Action
+    7400096: Camera_2|Window(3).005Action
+    7400098: Camera_2|Window(3).006Action
+    7400100: Camera_2|Window(3).007Action
+    7400102: Camera_2|Window(3).008Action
+    7400104: Camera_2|Window(3).009Action
+    7400106: Camera_2|Window(3).010Action
+    7400108: Camera_2|Window(3).011Action
+    7400110: Camera_2|Window(3).012Action
+    7400112: Camera_2|Window(3).013Action
+    7400114: Camera_2|Window(3).014Action
+    7400116: Camera|Camera_2Action
+    7400118: Camera|CameraAction
+    7400120: Camera|Window(1).001Action
+    7400122: Camera|Window(1).002Action
+    7400124: Camera|Window(1).003Action
+    7400126: Camera|Window(1).004Action
+    7400128: Camera|Window(1).005Action
+    7400130: Camera|Window(1).006Action
+    7400132: Camera|Window(1).007Action
+    7400134: Camera|Window(1).008Action
+    7400136: Camera|Window(1).009Action
+    7400138: Camera|Window(1).010Action
+    7400140: Camera|Window(1).011Action
+    7400142: Camera|Window(1).012Action
+    7400144: Camera|Window(1).013Action
+    7400146: Camera|Window(1).014Action
+    7400148: Camera|Window(1).015Action
+    7400150: Camera|Window(1).016Action
+    7400152: Camera|Window(2).001Action
+    7400154: Camera|Window(2).002Action
+    7400156: Camera|Window(2).003Action.001
+    7400158: Camera|Window(2).004Action
+    7400160: Camera|Window(2).005Action
+    7400162: Camera|Window(2).006Action
+    7400164: Camera|Window(2).007Action
+    7400166: Camera|Window(2).008Action
+    7400168: Camera|Window(2).009Action
+    7400170: Camera|Window(2).010Action
+    7400172: Camera|Window(2).011Action
+    7400174: Camera|Window(2).012Action
+    7400176: Camera|Window(2).013Action
+    7400178: Camera|Window(2).014Action
+    7400180: Camera|Window(2).015Action
+    7400182: Camera|Window(2).016Action
+    7400184: Camera|Window(2).017Action
+    7400186: Camera|Window(2).018Action
+    7400188: Camera|Window(2).019Action
+    7400190: Camera|Window(2).020Action
+    7400192: Camera|Window(2).021Action
+    7400194: Camera|Window(2).022Action
+    7400196: Camera|Window(2).023Action
+    7400198: Camera|Window(2).024Action
+    7400200: Camera|Window(2).025Action
+    7400202: Camera|Window(2).026Action
+    7400204: Camera|Window(3).001Action
+    7400206: Camera|Window(3).002Action
+    7400208: Camera|Window(3).003Action
+    7400210: Camera|Window(3).004Action
+    7400212: Camera|Window(3).005Action
+    7400214: Camera|Window(3).006Action
+    7400216: Camera|Window(3).007Action
+    7400218: Camera|Window(3).008Action
+    7400220: Camera|Window(3).009Action
+    7400222: Camera|Window(3).010Action
+    7400224: Camera|Window(3).011Action
+    7400226: Camera|Window(3).012Action
+    7400228: Camera|Window(3).013Action
+    7400230: Camera|Window(3).014Action
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -29,6 +29,7 @@ namespace LocomotionSystem
 		[SerializeField] float moveSpeed = 1.5f;
 		[SerializeField] float turnSpeed = 2f;
 		[SerializeField] float jumpVelocity = 5f;
+		[SerializeField] float moveQ = 1.2f;
 
 		public Vector3 destinationVelocity { get; private set; }
 		public float destinationAngularVelocity { get; private set; }
@@ -38,7 +39,7 @@ namespace LocomotionSystem
 			body = GetComponent<Rigidbody> ();
 			coll = GetComponent<Collider> ();
 			trans = transform;
-			locomotionBehaviour = new LocomotionBehaviour (GetComponent<Animator> (), body, moveSpeed, turnSpeed);
+			locomotionBehaviour = new LocomotionBehaviour (GetComponent<Animator> (), body, moveSpeed / moveQ, turnSpeed);
 			hips = locomotionBehaviour.animator.GetBoneTransform (HumanBodyBones.Hips);
 			InitBody (false);
 		}
@@ -73,6 +74,7 @@ namespace LocomotionSystem
 		protected virtual void FixedUpdate ()
 		{
 			locomotionBehaviour.FixedUpdate ();
+			UpdateWeapon ();
 			//locomotionBehaviour.onGround = contactsAboutLegs.Count > 0;
 			if (!OnGround()) {
 				destinationVelocity = body.velocity;
@@ -123,6 +125,18 @@ namespace LocomotionSystem
 			Vector3 dir = trans.InverseTransformDirection (direction);
 			float move = dir.z > 0 ? dir.z : 0;
 			Move (new Vector3 (angle, 0, move));
+		}
+		protected void UpdateWeapon ()
+		{
+			if (locomotionBehaviour.currentHoldable is Weapon)
+			{
+				Weapon w = locomotionBehaviour.currentHoldable as Weapon;
+				UpdateWeapon (w);
+			}
+		}
+		protected virtual void UpdateWeapon (Weapon weapon)
+		{
+			weapon.SetAimDirection (trans.forward);
 		}
 		/*protected virtual void OnTriggerStay (Collider coll)
 		{

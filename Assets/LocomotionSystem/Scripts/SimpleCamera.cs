@@ -8,7 +8,7 @@ namespace LocomotionSystem
 	public class SimpleCamera : MonoBehaviour
 	{
 		[SerializeField] Transform target;
-		[SerializeField] float dist = 3f;
+		[SerializeField] Vector3 offset = new Vector3(0.5f, 0.5f, -1f);
 		[SerializeField] float angleMax = 80f;
 
 		Vector3 euler;
@@ -22,7 +22,9 @@ namespace LocomotionSystem
 
 		protected virtual Vector3 CameraInput ()
 		{
-			return new Vector3 (-Input.GetAxis ("Mouse Y"), Input.GetAxis ("Mouse X"), 0f);
+			Vector3 input = MobileInput.GetCameraInput ();
+			//input = input.magnitude < float.Epsilon ? new Vector3 (-Input.GetAxis ("Mouse Y"), Input.GetAxis ("Mouse X"), 0f) : input;
+			return input;
 		}
 
 		protected virtual void OnPreRender ()
@@ -30,13 +32,15 @@ namespace LocomotionSystem
 			euler += CameraInput ();
 			euler.x = Mathf.Clamp (euler.x, -angleMax, angleMax);
 			trans.eulerAngles = euler;
-			float d = dist;
-			Ray ray = new Ray (target.position, -trans.forward);
+			float d = offset.magnitude;
+			Vector3 dir = trans.TransformDirection (offset).normalized;
+			Ray ray = new Ray (target.position, dir);
 			RaycastHit hit;
 			if (Physics.Raycast(ray, out hit, d)) {
 				d = hit.distance;
 			}
-			trans.position = target.position - trans.forward * d;
+			Vector3 delta = dir * d;
+			trans.position = target.position + delta;
 		}
 	}
 }

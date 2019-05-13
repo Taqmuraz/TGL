@@ -13,7 +13,11 @@ namespace LocomotionSystem
 		}
 		public override object GetValue ()
 		{
-			return Mathf.Clamp(body.velocity.magnitude, 0, float.MaxValue) / moveSpeed;
+			if (Vector3.ProjectOnPlane(controller.destinationVelocity, Vector3.up).magnitude < Mathf.Abs(controller.destinationVelocity.y))
+			{
+				return 0f;
+			}
+			return Mathf.Clamp(controller.destinationVelocity.magnitude, 0, float.MaxValue) / moveSpeed;
 		}
 	}
 	

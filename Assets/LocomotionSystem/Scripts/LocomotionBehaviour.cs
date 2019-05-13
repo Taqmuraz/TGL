@@ -5,8 +5,7 @@ using System.Linq;
 
 namespace LocomotionSystem
 {
-
-	public class LocomotionBehaviour : AnimatorBehaviour
+	public class LocomotionBehaviour : AnimatorBehaviour, IHolder, IHoldable
 	{
 		protected List<LocomotionParameter> parameters { get; private set; }
 		protected Rigidbody rigidbody { get; private set; }
@@ -15,6 +14,30 @@ namespace LocomotionSystem
 		protected float moveSpeed { get; private set; }
 		protected float turnSpeed { get; private set; }
 		public bool onGround { get; set; }
+
+		IHoldable _currentHoldable;
+		public IHoldable currentHoldable
+		{
+			get {
+				if (_currentHoldable != null)
+				{
+					return _currentHoldable;
+				}
+				return this;
+			}
+			private set {
+				if (_currentHoldable != null)
+				{
+					_currentHoldable.OnRemove (this);
+				}
+				_currentHoldable = value;
+				value.OnAdd (this);
+			}
+		}
+		public void SetHoldable (IHoldable holdable)
+		{
+			currentHoldable = holdable;
+		}
 
 		Vector3 curLeft;
 		Vector3 curRight;
@@ -42,9 +65,23 @@ namespace LocomotionSystem
 		}
 		public override void AnimatorIK ()
 		{
-			SetIKWeights (1f);
+			SetIKWeights (1f, true);
 			SetLeg (AvatarIKGoal.LeftFoot);
 			SetLeg (AvatarIKGoal.RightFoot);
+
+			SetIKOrientation (AvatarIKGoal.LeftHand, currentHoldable.GetLeftHand(this), true);
+			SetIKOrientation (AvatarIKGoal.RightHand, currentHoldable.GetRightHand(this), true);
+		}
+		protected void SetIKOrientation (AvatarIKGoal goal, Orientation orientation, bool smooth = false)
+		{
+			if (smooth)
+			{
+				Orientation cur = new Orientation(animator.GetIKPosition(goal), animator.GetIKRotation(goal));
+				float sin = currentHoldable.GetPosSin (this);
+				orientation = Orientation.Slerp (cur, orientation, sin);
+			}
+			animator.SetIKPosition (goal, orientation.position);
+			animator.SetIKRotation (goal, orientation.rotation);
 		}
 		protected void SetLeg (AvatarIKGoal goal)
 		{
@@ -92,6 +129,45 @@ namespace LocomotionSystem
 				object value = p.GetValue ();
 				SetValue (p.name, value);
 			}
+		}
+		public virtual Transform GetTransform ()
+		{
+			return controller.trans;
+		}
+		public Orientation GetLeftHandDefault()
+		{
+			return GetOrientationFromIKGoal (AvatarIKGoal.LeftHand);
+		}
+		public Orientation GetOrientationFromIKGoal (AvatarIKGoal goal)
+		{
+			return new Orientation(animator.GetIKPosition (goal), animator.GetIKRotation (goal));
+		}
+		public Orientation GetRightHandDefault()
+		{
+			return GetOrientationFromIKGoal (AvatarIKGoal.RightHand);
+		}
+		public Orientation GetLeftHand (IHolder holder)
+		{
+			return GetLeftHandDefault ();
+		}
+		public Orientation GetRightHand (IHolder holder)
+		{
+			return GetRightHandDefault ();
+		}
+		public void OnAdd (IHolder holder) {}
+		public void OnRemove (IHolder holder) {}
+
+		public Transform GetLeftHandTransform ()
+		{
+			return animator.GetBoneTransform (HumanBodyBones.LeftHand);
+		}
+		public Transform GetRightHandTransform ()
+		{
+			return animator.GetBoneTransform (HumanBodyBones.RightHand);
+		}
+		public float GetPosSin (IHolder holder)
+		{
+			return 1f;
 		}
 	}
 	

@@ -1,0 +1,246 @@
+fileFormatVersion: 2
+guid: 61e08ba90a993d9419965440c62c495e
+timeCreated: 1555951381
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Brov.Left
+    100002: Brov.Left_end
+    100004: Brov.Right
+    100006: Brov.Right_end
+    100008: GG
+    100010: //RootNode
+    100012: golova
+    100014: guba
+    100016: guba_end
+    100018: IK.GG
+    100020: IK.l
+    100022: IK.l_end
+    100024: IK.noga.r
+    100026: IK.noga.r_end
+    100028: IK.ruka.l
+    100030: IK.ruka.l_end
+    100032: IK.ruka.r
+    100034: IK.ruka.r_end
+    100036: jivot
+    100038: kist.l
+    100040: kist.r
+    100042: Left.Eye
+    100044: Left.Eye_end
+    100046: noga.l
+    100048: noga.l2
+    100050: noga.r
+    100052: noga.r2
+    100054: palec.l
+    100056: palec.l10
+    100058: palec.l10_end
+    100060: palec.l2
+    100062: palec.l2_end
+    100064: palec.l3
+    100066: palec.l4
+    100068: palec.l4_end
+    100070: palec.l5
+    100072: palec.l6
+    100074: palec.l6_end
+    100076: palec.l7
+    100078: palec.l8
+    100080: palec.l8_end
+    100082: palec.l9
+    100084: palec.r
+    100086: palec.r10
+    100088: palec.r10_end
+    100090: palec.r2
+    100092: palec.r2_end
+    100094: palec.r3
+    100096: palec.r4
+    100098: palec.r4_end
+    100100: palec.r5
+    100102: palec.r6
+    100104: palec.r6_end
+    100106: palec.r7
+    100108: palec.r8
+    100110: palec.r8_end
+    100112: palec.r9
+    100114: plecho.l
+    100116: plecho.r
+    100118: podborodok
+    100120: podborodok_end
+    100122: Right.Eye
+    100124: Right.Eye_end
+    100126: ruka.l
+    100128: ruka.l2
+    100130: ruka.r
+    100132: ruka.r2
+    100134: sheya
+    100136: Skelet.GG_1
+    100138: stopa.l
+    100140: stopa.l_end
+    100142: stopa.r
+    100144: stopa.r_end
+    100146: telo
+    400000: Brov.Left
+    400002: Brov.Left_end
+    400004: Brov.Right
+    400006: Brov.Right_end
+    400008: GG
+    400010: //RootNode
+    400012: golova
+    400014: guba
+    400016: guba_end
+    400018: IK.GG
+    400020: IK.l
+    400022: IK.l_end
+    400024: IK.noga.r
+    400026: IK.noga.r_end
+    400028: IK.ruka.l
+    400030: IK.ruka.l_end
+    400032: IK.ruka.r
+    400034: IK.ruka.r_end
+    400036: jivot
+    400038: kist.l
+    400040: kist.r
+    400042: Left.Eye
+    400044: Left.Eye_end
+    400046: noga.l
+    400048: noga.l2
+    400050: noga.r
+    400052: noga.r2
+    400054: palec.l
+    400056: palec.l10
+    400058: palec.l10_end
+    400060: palec.l2
+    400062: palec.l2_end
+    400064: palec.l3
+    400066: palec.l4
+    400068: palec.l4_end
+    400070: palec.l5
+    400072: palec.l6
+    400074: palec.l6_end
+    400076: palec.l7
+    400078: palec.l8
+    400080: palec.l8_end
+    400082: palec.l9
+    400084: palec.r
+    400086: palec.r10
+    400088: palec.r10_end
+    400090: palec.r2
+    400092: palec.r2_end
+    400094: palec.r3
+    400096: palec.r4
+    400098: palec.r4_end
+    400100: palec.r5
+    400102: palec.r6
+    400104: palec.r6_end
+    400106: palec.r7
+    400108: palec.r8
+    400110: palec.r8_end
+    400112: palec.r9
+    400114: plecho.l
+    400116: plecho.r
+    400118: podborodok
+    400120: podborodok_end
+    400122: Right.Eye
+    400124: Right.Eye_end
+    400126: ruka.l
+    400128: ruka.l2
+    400130: ruka.r
+    400132: ruka.r2
+    400134: sheya
+    400136: Skelet.GG_1
+    400138: stopa.l
+    400140: stopa.l_end
+    400142: stopa.r
+    400144: stopa.r_end
+    400146: telo
+    4300000: GG
+    7400000: Skelet.GG_1|GG_Death
+    7400002: Skelet.GG_1|GG_GetUp
+    7400004: Skelet.GG_1|GG_HammerBlow
+    7400006: Skelet.GG_1|GG_Help
+    7400008: Skelet.GG_1|GG_Inaction
+    7400010: Skelet.GG_1|GG_Open
+    7400012: Skelet.GG_1|GG_Rotate(-180)
+    7400014: Skelet.GG_1|GG_Rotate(-90)
+    7400016: Skelet.GG_1|GG_Rotate(180)
+    7400018: Skelet.GG_1|GG_Rotate(90)
+    7400020: Skelet.GG_1|GG_Run
+    7400022: Skelet.GG_1|GG_Run(-45)
+    7400024: Skelet.GG_1|GG_Run(-65)
+    7400026: Skelet.GG_1|GG_Run(45)
+    7400028: Skelet.GG_1|GG_SatDown
+    7400030: Skelet.GG_1|GG_Walk
+    7400032: Skelet.GG_1|GG_Walk(45)
+    7400034: Skelet.GG_1|GG_Jump
+    9500000: //RootNode
+    13700000: GG
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.25
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
